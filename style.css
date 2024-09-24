@@ -113,7 +113,7 @@ header{
     height: 800px;
     width:100%;
    background-size: cover;
-   background-color: rgba(0, 0, 0, 0.593);
+   background-color: rgba(0, 0, 0, 0.27);
 }
 .heading{
     font-size: 50px;
@@ -187,7 +187,7 @@ header{
     height: 600px;
     width:100%;
    background-size: cover;
-   background-color: rgba(0, 0, 0, 0.702);
+   background-color: rgba(0, 0, 0, 0.418);
    /* display: flex;
    justify-content: center;
    align-items: center; */
@@ -402,7 +402,7 @@ header{
      margin-top: 50px;
 }
 .third_background_img_transparent{
-    background-color: rgba(0, 0, 0, 0.718);
+    background-color: rgba(0, 0, 0, 0.315);
     background-repeat: no-repeat;
     height: 900px;
     width: 100%;
@@ -890,6 +890,114 @@ margin-top: 10px;
     margin-top: 40px;
 
 }
+
+/* responsive start */
+
+
+@media only screen and (max-width:600px){
+         body{
+            width: 600px;
+         }      
+    ul {
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+    .bg_img_transparent {
+        height: 800px;
+        width: 100%;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.593);
+        width: 600px;
+    }
+    .delitiousn h1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color:rgb(255, 217, 0);
+        text-shadow: 5px 5px black;
+        font-family: "Matemasie", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+    .delitiousn p {
+        font-size: 30px;
+        text-align: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        font-family: "Unlock", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .history_part {
+        display: flex;
+        padding: 20px;
+        margin-top: 30px;
+        margin: 0;
+    }
+    .history_part_img_part_one img {
+        height: 200px;
+        width: 250px;
+    }
+
+    
+    .history_pra {
+        margin-left:40px;
+        padding: 20px;
+        width: 270px;
+        font-size: 15px;
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+}
+.h_p_t_img{
+    width: 118px;
+}
+.h_p_t_img_two {
+    width: 118px;
+}
+
+.container {
+    background-color: rgba(97, 128, 111, 0.374);
+    border: 1px solid rgb(148, 110, 56);
+    height: 500px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 40px;
+    gap: 20px;
+    font-size: 30px;
+}
+.writing_img {
+    width: 270px;
+    margin-top: 50px;
+}
+.our_fetures_div {
+    margin-top: 50px;
+    background-color: white;
+    height: 550px;
+    width: 160px;
+    align-items: center;
+  
+}
+.your-class .pic_text_slider {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+}    
+
+
 /* END */
 
 
