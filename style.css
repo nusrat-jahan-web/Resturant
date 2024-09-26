@@ -24,10 +24,10 @@ header img{
 header{
     display: flex;
     justify-content:space-around ;
-    background-color: rgba(0, 0, 0, 0.43);
+    background-color: rgba(0, 0, 0, 0.551);
     position: sticky;
     top: 0;
-
+    
 }
 .fa fa-shopping-cart{
     display: flex;
@@ -56,8 +56,8 @@ header{
            display: block;
 }
 .bg_img{
-    background: url(./Photos/a-wide-shot-of-a-steaming-pot-of-biryani-world-food-day-images-photo.jpg);
-    height: 800px;
+    background: url(./Photos/1000_F_690524622_eSyOLJO9supQbyn1sPaPNYCveVT0Omo1.jpg);
+    height: 900px;
     width:100%;
    background-size: cover;
    background-attachment: fixed;
@@ -69,6 +69,7 @@ header{
     flex-direction: column;
    justify-content: center;
    align-items: center;
+   margin-top: 40px;
 }
 
 .delitiousn h1{
@@ -77,6 +78,7 @@ header{
     justify-content: center;
     align-items: center;
    font-size: 60px;
+   text-shadow: 10px 15px black;
     color: white; 
     font-family: "Matemasie", sans-serif;
   font-weight: 600;
@@ -91,13 +93,16 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+   text-shadow: 5px 5px rgb(7, 7, 146);
     font-family: "Unlock", serif;
   font-weight: 400;
   font-style: normal;
   }
 
   .button_img{
+ 
     margin-top: 80px;
+  
   }
 /* .delicious {
     height: 100px;
@@ -110,12 +115,12 @@ header{
 
 } */
 
-.bg_img_transparent{
+/* .bg_img_transparent{
     height: 800px;
     width:100%;
    background-size: cover;
-   background-color: rgba(0, 0, 0, 0.27);
-}
+   background-color: rgba(0, 0, 0, 0);
+} */
 .heading{
     font-size: 50px;
     font-family: "Sevillana", cursive;
@@ -530,7 +535,10 @@ header{
 }
 
 .our_menu_ul :hover{
-    display: block;
+    font-style: bolder;
+    font-weight: 900;
+  color: rgb(125, 18, 18);
+  transform: scale(1.1);
 }
 
 .our_menu_types{
@@ -605,7 +613,7 @@ font-size: 20px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 40px;
+    margin-top: 60px;
     background-attachment: fixed;
 }
 .trusted_by_bg_img_transparent{
@@ -615,37 +623,43 @@ font-size: 20px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.trusted_by_slider{
+
+.text_class{
+    /* width: 100%; */
+    /* margin: 0 auto; */
     height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin-left:200px;
-   
- margin-top: 50px; */
-   /* width: 100%;
-   margin: 0 auto; */
+
 }
-/* .trusted_by_slider h1{ */
+.trusted_by_slider{
+   
+    width: 100%;
+    margin: 0 auto;
+  
+}
+
  .fa-quote-left{
 
  
 font-size: 40px;
     color: white;
-    margin-top: 100px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 700px;
-    margin: 0 auto;
+    width: 100%;
+  
 
 }
 .trusted_by_slider p{
     font-size: 40px;
     color: white;
-    width:700px;
+    width:800px;
     margin: 0 auto;
+    text-align: center;
 }
 .text_class{
     display: flex;
