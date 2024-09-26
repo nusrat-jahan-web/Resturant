@@ -60,6 +60,7 @@ header{
     height: 800px;
     width:100%;
    background-size: cover;
+   background-attachment: fixed;
    
  
 }
@@ -178,6 +179,7 @@ header{
 .slider_section_bg_img{
     background: url(./Photos/OIP.jpeg);
     height: 600px;
+    background-attachment: fixed;
     width: 100%;
     background-size: cover;
     /* background-position: fixed; */
@@ -186,18 +188,28 @@ header{
 .slider_section_bg_img_transparent{
     height: 600px;
     width:100%;
+    background-attachment: fixed;
+
    background-size: cover;
    background-color: rgba(0, 0, 0, 0.418);
    /* display: flex;
    justify-content: center;
    align-items: center; */
 }
+
+.pic_text_slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
 .slider_one{
     display: flex;
     height:350px ;
     width: 500px;
-    margin-top: 150px;
-    margin-left:200px;
+    /* margin-top: 150px;
+    margin-left:200px; */
+    
 }
 .your-class{
     display: flex;
@@ -209,10 +221,11 @@ header{
 }
 .burger_discription{
     background-color: white;
+    height:350px ;
     
     color:black;
     width: 500px;
-    margin-top:150px;
+   
 }
 .burger_discription h1{
     font-size:25px;
@@ -400,6 +413,7 @@ header{
      width: 100%;
      background-size: cover;
      margin-top: 50px;
+     background-attachment: fixed;
 }
 .third_background_img_transparent{
     background-color: rgba(0, 0, 0, 0.315);
@@ -407,6 +421,7 @@ header{
     height: 900px;
     width: 100%;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 
@@ -591,6 +606,7 @@ font-size: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 40px;
+    background-attachment: fixed;
 }
 .trusted_by_bg_img_transparent{
     background-color: rgba(0, 0, 0, 0.668);
@@ -600,13 +616,16 @@ font-size: 20px;
     background-size: cover;
 }
 .trusted_by_slider{
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left:200px;
-    margin-top: 50px;
+    /* margin-left:200px;
    
+ margin-top: 50px; */
+   /* width: 100%;
+   margin: 0 auto; */
 }
 /* .trusted_by_slider h1{ */
  .fa-quote-left{
@@ -618,14 +637,15 @@ font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: -100px;
+    width: 700px;
+    margin: 0 auto;
 
 }
 .trusted_by_slider p{
     font-size: 40px;
     color: white;
     width:700px;
-    margin-left: 200px;
+    margin: 0 auto;
 }
 .text_class{
     display: flex;
@@ -733,6 +753,7 @@ margin-top: 10px;
 
 .footer_area{
     background: url(./Millionaire_Spaghetti_019-34e9c04b1ae8405088f53450a048e413.jpg);
+    background-attachment: fixed;
    
     height: 550px;
     width: 100%;
@@ -740,7 +761,7 @@ margin-top: 10px;
     
 }
 .footer_area_transparent{
-    background-color: rgba(0, 0, 0, 0.804);
+    background-color: rgba(0, 0, 0, 0.774);
     height: 550px;
     width: 100%;
     background-size: cover;
